@@ -19,7 +19,7 @@ function App() {
           rel="noopener noreferrer"
           data-testid="learn-link"
         >
-          Learn Testing in React is Nice
+          Learn Testing in React is Nice and cool
         </a>
         <h5>Cool Application</h5>
         Button
