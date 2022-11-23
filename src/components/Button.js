@@ -5,7 +5,7 @@ import React from "react";
 const Button = () => {
   return (
     <div>
-      <button>This is a Button</button>
+      <button>This is a cool Button</button>
     </div>
   );
 };
