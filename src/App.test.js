@@ -15,3 +15,9 @@ test("render Button Component in document", () => {
   const childELement = screen.getByText(/Button/);
   expect(childELement).toBeInTheDocument();
 });
+
+test("url is correct", () => {
+  render(<App />);
+  const linkElement = screen.getByTestId("learn-link");
+  expect(linkElement.href).toContain("reactjs.org");
+});
